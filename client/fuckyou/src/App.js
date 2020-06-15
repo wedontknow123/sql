@@ -18,11 +18,13 @@ class App extends Component{
     })
   }
   render(){
+
+
   return (
     <div >
       <form>
       <input onChange={this.handlechange} name="bitch" type="text" placeholder="hello" />
-      <button onClick={this.handleclick}>bitchas</button>
+      <button onClick={this.handleclick}>bitcha</button>
       </form>
     </div>
   );
